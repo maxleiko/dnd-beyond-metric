@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "DnD Beyond Metric",
+  "version": "1.0",
+
+  "description": "Transform feet, yards, ",
+
+  "icons": {
+    "48": "icons/dnd_beyond.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.dndbeyond.com/characters/*"],
+      "js": ["src/index.js"]
+    }
+  ]
+
+}

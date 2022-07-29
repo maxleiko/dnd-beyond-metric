@@ -1,0 +1,18 @@
+{
+  "name": "dnd-beyond-metric",
+  "version": "1.0.0",
+  "description": "Firefox extension - DnD Beyond Metric",
+  "main": "dist/index.js",
+  "repository": "https://github.com/maxleiko/dnd-beyond-metric",
+  "author": "Maxime Tricoire",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "esbuild --bundle src/index.ts --outdir=dist --platform=browser --format=iife --allow-overwrite --log-level=error",
+    "watch": "yarn build --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.51",
+    "typescript": "^4.7.4"
+  }
+}
