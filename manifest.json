@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.dndbeyond.com/characters/*"],
-      "js": ["src/index.js"]
+      "js": ["dist/index.js"]
     }
   ]
 
