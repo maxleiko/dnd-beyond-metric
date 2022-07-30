@@ -3,7 +3,7 @@
   "name": "DnD Beyond Metric",
   "version": "1.0",
 
-  "description": "Transform feet, yards, ",
+  "description": "Convert imperial to metric through the all website",
 
   "icons": {
     "48": "icons/dnd_beyond.png"

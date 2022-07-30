@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "esbuild --bundle src/index.ts --outdir=dist --platform=browser --format=iife --allow-overwrite --minify",
+    "build": "esbuild --bundle src/index.ts --outdir=dist --platform=browser --format=iife --allow-overwrite",
+    "dist": "yarn build --minify",
     "watch": "yarn build --watch"
   },
   "devDependencies": {
