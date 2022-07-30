@@ -6,6 +6,7 @@ const WEIGHT = '.ddbc-weight-number';
 const CONTAINER_WEIGHT_CAP = '.ct-equipment__container-weight-capacity';
 
 const KNOWN_DISTANCES = {
+  '3.0': '3',
   '9.1': '9',
   '6.1': '6',
   '4.6': '4.5',
