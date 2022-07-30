@@ -6,7 +6,7 @@
   "description": "Convert imperial to metric through the all website",
 
   "icons": {
-    "48": "icons/dnd_beyond.png"
+    "48": "icons/dnd_beyond_metric.png"
   },
 
   "content_scripts": [
